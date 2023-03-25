@@ -25,6 +25,10 @@ font-family: 'Roboto', sans-serif; */
   background-color: #525252;
 }
 
+.bg-color-three-reasons {
+  background-color: #fff;
+}
+
 /* Paddings margins / text */
 
 h1,
@@ -41,6 +45,29 @@ h3 {
   color: #fafafa;
   font-family: "Exo", sans-serif;
   font-weight: 300;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.row-table {
+  display: table;
+  padding: 0 30px 30px;
+  float: none;
+}
+
+.section-column {
+  display: table-cell;
+  padding: 0 30px 30px;
+  float: none;
+}
+
+.section-heading {
+  font-family: "Exo", sans-serif;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 40px;
 }
 
 /* Headings */
@@ -171,4 +198,13 @@ footer {
 
 #footer-details {
   padding: 20px;
+}
+
+.three-reasons-icon {
+  font-size: 26px;
+  color: #e67e22;
+}
+
+.three-reasons-heading {
+  margin-bottom: 15px;
 }
